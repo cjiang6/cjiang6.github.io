@@ -6,12 +6,3 @@ venue: "University of Wyoming, Department of Electrical Engineering and Computer
 date: Fall 2019, Spring 2020, Spring 2022-2025
 ---
 Course description: Binary logic, digital logic gates, reduction of Boolean expressions, combinational logic design. MSI and LSI combinational logic ICs, flip-flops, synchronous and asynchronous sequential systems design, MSI and LSI sequential system ICs, and algorithmic state machines.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
