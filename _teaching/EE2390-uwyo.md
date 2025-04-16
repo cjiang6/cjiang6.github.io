@@ -3,6 +3,7 @@ title: "EE2390 Digital Systems Design"
 collection: 
 type: "Undergraduate course"
 venue: "University of Wyoming, Department of Electrical Engineering and Computer Science"
+data: 2019-2025
 ---
 Fall 2019, Spring 2020, Spring 2022-2025
 
