@@ -1,6 +1,6 @@
 ---
 title: "EE2390 Digital Systems Design"
-collection: teaching
+collection: 
 type: "Undergraduate course"
 venue: "University of Wyoming, Department of Electrical Engineering and Computer Science"
 ---
