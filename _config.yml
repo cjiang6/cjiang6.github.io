@@ -301,7 +301,7 @@ defaults:
   # _research
   - scope:
       path: ""
-      type: research
+      type: portfolio
     values:
       layout: single
       author_profile: true
