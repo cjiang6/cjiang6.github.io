@@ -9,4 +9,4 @@ collection: portfolio
    1) Deterministic scenarios with Mixed Integer Nonlinear Programming (MINP) []
    
 3. Multi-Patient Multi-Robot Task Assignment - Learning-Based Approaches
-<img src='/images/robotic_gym_overview.png'>
+<img src='/images/robotic_gym_learning.png'>
