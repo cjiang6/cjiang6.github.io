@@ -3,7 +3,7 @@ title: "EE4490 Hardware Descriptive Language (HDL) Digital Design"
 collection: teaching
 type: "Undergraduate course"
 venue: "University of Wyoming, Department of Electrical Engineering and Computer Science"
-date: "present"
+date: "2025-01-01"
 ---
 Fall 2020-2022, 2024-2025
 
