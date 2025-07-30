@@ -3,7 +3,7 @@ title: "EE5885 Deep Reinforcement Learning and Control"
 collection: teaching
 type: "Graduate course"
 venue: "University of Wyoming, Department of Electrical Engineering and Computer Science"
-#date: 
+date: 2025-01-28
 ---
 Fall 2020-2022, Spring 2024-2025
 
