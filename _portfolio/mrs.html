@@ -7,7 +7,7 @@ collection: portfolio
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Multi-Robot Trajectory Optimization via Model Predictive Control</title>
+  <title>Multi-Robot Trajectory Optimization</title>
   <style>
     /* Container */
     .content {
@@ -73,27 +73,36 @@ collection: portfolio
 <body>
   <div class="content">
   
-    <h2>1. Skill-Based Adaptive Shared Autonomy</h2>
-    <div class="figure-grid">
+    <h2>1. Multi-Robot Trajectory Optimization via Model Predictive Control</h2>
+    <span class="citation">[2,3]</span>
+        <div class="figure-grid">
+          <figure>
+            <img src="/images/markov_random_field.jpg" alt="Stochastic skill prediction">
+            <figcaption>A multi-robot team represented as a Markov random field [2]</figcaption>
+          </figure>
+          <figure>
+            <img src="/images/overview_vi_mpc.jpg" alt="Stochastic skill prediction 2">
+            <figcaption>An overview of the distributed VI-MPC algorithm [2]</figcaption>
+          </figure>
+        </div>
+     <div class="figure-grid">
       <figure>
-        <img src="/images/Main_diagram-6.png" alt="Optimization overview">
-        <figcaption>Overview of our shared autonomy method for assistive robotic manipulation. At the core of our method is a skill-inference-based adaptive arbitration between user control and autonomous assistance. [2]</figcaption>
          <video
             controls
             width="100%"
             style="border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); margin-top:12px;"
           >
-            <source src="/images/RAL_video_final.mp4" type="video/mp4">
+            <source src="/images/video_vi_mpc.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-          <figcaption>Demonstration of pick-and-place and cup-stacking tasks</figcaption>
+          <figcaption>Demonstration of distributed sampling-based MPC for multi-robot formation navigation [2]</figcaption>
       </figure>
     </div>
         
     <h2>Publications:</h2>
     <ul class="references-list">
-      <li>[2] Atan, U., Bharadwaj, V.R. and Jiang, C. (2025). A probabilistic Inference Approach for Skill-Based Shared Autonomy in Assistive Robotic Manipulation. IEEE Robotics and Automation Letters (RA-L), 2025</li>
-      <li>[1] Atan, U., Bharadwaj, V.R. and Jiang, C. (2024). Assistive Control of Robot Arms via Adaptive Shared Autonomy. In 2024 IEEE International Conference on Advanced Intelligent Mechatronics (AIM), pp. 1096-1102</li>
+      <li>[2] Jiang, C. (2024). Distributed Sampling-Based Model Predictive Control via Belief Propagation for Multi-Robot Formation Navigation. IEEE Robotics and Automation Letters, vol. 9, no. 4, pp. 3467-3474. DOI: 10.1109/LRA.2024.3368794.</li>
+      <li>[1] Jiang, C., & Guo, Y. (2023). Incorporating Control Barrier Functions in Distributed Model Predictive Control for Multi-Robot Coordinated Control. IEEE Transactions on Control of Network Systems. DOI: 10.1109/TCNS.2023.3290430. </li>
     </ul>
     
   </div>
