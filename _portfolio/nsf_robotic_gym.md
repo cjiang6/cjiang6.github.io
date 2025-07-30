@@ -6,7 +6,7 @@ collection: portfolio
 
 1. Multi-Patient Multi-Robot Task Assignment - Optimization-Based Approaches
 <img src='/images/robotic_gym_optimization.png'>
-   1) Deterministic scenarios with Mixed Integer Nonlinear Programming (MINP)
+   1) Deterministic scenarios with Mixed Integer Nonlinear Programming (MINP) []
    
 3. Multi-Patient Multi-Robot Task Assignment - Learning-Based Approaches
 <img src='/images/robotic_gym_overview.png'>
