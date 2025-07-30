@@ -15,5 +15,7 @@ collection: portfolio
    
 <b>2. Multi-Patient Multi-Robot Task Assignment - Learning-Based Approaches</b><br/>
 <img src='/images/robotic_gym_learning.png'><br/>
-   1) Learning computational neural network models that imitate experts' patient-robot assignment strategies [4,5,6,7]<br/>
+   1) Learning computational neural network models that imitate experts' patient-robot assignment strategies [4,5,6]<br/>
    <img src='/images/robotic_gym_learning2.png'><br/>
+   2) Preference augmented learning from expert feedback [7]<br/>
+   <img src='/images/robotic_gym_learning3.png'><br/>
