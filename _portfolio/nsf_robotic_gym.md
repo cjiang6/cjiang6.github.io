@@ -8,7 +8,7 @@ collection: portfolio
 <img src='/images/robotic_gym_optimization.png'><br/>
    1) A deterministic scenario with Mixed Integer Nonlinear Programming (MINP) [1]<br/>
    <br/>
-   <img src='/images/robotic_gym_deterministic.jpg'><br/>
+   <img src='/images/robotic_gym_deterministic.png'><br/>
    2) Addressing uncertainties and stochasticities in patient skill acquisition with neural network-based skill prediction [2,3]<br/>
    <img src='/images/robotic_gym_stochastic.png'><br/>
    
