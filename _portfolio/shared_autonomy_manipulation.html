@@ -1,0 +1,153 @@
+---
+title: "Adaptive Shared Autonomy for Assistive Robotic Manipulation"
+excerpt: "Overview: Shared autonomy promotes collaboration between humans and robots by integrating human input with autonomous control, allowing humans to perform tasks without the need for precise manual control. A primary problem in shared autonomy is how to determine the optimal balance of control between the user and robot. This problem is further complicated by the variability in human proficiency and preference when performing manipulation tasks. Addressing this issue requires systems to infer human skill levels, enabling dynamic adjustments to the level of assistance. Such adaptability ensures that assistance is neither overly intrusive for experienced users nor insufficient for novices. To address this challenge, this project investigates human-centric shared autonomy approaches that offers adaptive and personalized level of assistance. <br/><img src='/images/Main_diagram-5.png'>"
+collection: portfolio
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assistive Robotic Manipulation</title>
+  <style>
+    /* Container */
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    
+    /* Section headings */
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    
+    /* Figure grid */
+    .figure-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 1rem 0 2rem;
+    }
+    
+    figure {
+      margin: 0;
+      text-align: center;
+    }
+    
+    figure img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    
+    figcaption {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    
+    /* List styling */
+    .approach-list {
+      margin: 0 0 1.5rem 1.2rem;
+    }
+    .approach-list li {
+      margin-bottom: 0.8rem;
+    }
+    
+    /* Citation style */
+    .citation {
+      font-size: 0.85rem;
+      color: #999;
+      margin-left: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+  
+    <h2>1. Multi-Patient Multi-Robot Task Assignment - Mathematical Optimization Approaches</h2>
+    <div class="figure-grid">
+      <figure>
+        <img src="/images/robotic_gym_optimization.png" alt="Optimization overview">
+        <figcaption>Overview of patient-robot assignment via mathematical optimizaton</figcaption>
+      </figure>
+    </div>
+    <ul class="approach-list">
+      <li>
+        Deterministic Optimization via Mixed Integer Nonlinear Programming (MINLP)
+        <span class="citation">[1]</span>
+        <div class="figure-grid">
+          <figure>
+            <img src="/images/robotic_gym_deterministic.bmp" alt="Deterministic optimization">
+            <figcaption>Results of MINLP</figcaption>
+          </figure>
+        </div>
+      </li>
+      <li>
+        Addressing Stochasticity in Patient Skill Acquisition with Neural-Network-Based Prediction
+        <span class="citation">[2,3]</span>
+        <div class="figure-grid">
+          <figure>
+            <img src="/images/robotic_gym_stochastic.png" alt="Stochastic skill prediction">
+            <figcaption>Automated assignment pipeline</figcaption>
+          </figure>
+          <figure>
+            <img src="/images/robotic_gym_stochastic2.bmp" alt="Stochastic skill prediction 2">
+            <figcaption>Results of automated assignment in a stochastic robotic gym</figcaption>
+          </figure>
+        </div>
+      </li>
+    </ul>
+    
+    <h2>2. Multi-Patient Multi-Robot Task Assignment - Learning-Based Approaches</h2>
+    <div class="figure-grid">
+      <figure>
+        <img src="/images/robotic_gym_learning.png" alt="Learning overview">
+        <figcaption>Overview of learning-based patient-robot assignment</figcaption>
+      </figure>
+    </div>
+    <ul class="approach-list">
+      <li>
+        Learning Computational Neural Network Models Imitating Experts' Patient-Robot Assignment Strategies
+        <span class="citation">[4,5,6]</span>
+        <div class="figure-grid">
+          <figure>
+            <img src="/images/robotic_gym_learning2.png" alt="Learning model example">
+            <figcaption>Results of imitation learning from experts</figcaption>
+          </figure>
+        </div>
+      </li>
+      <li>
+        Preference-Augmented Learning from Expert Feedback
+        <span class="citation">[7]</span>
+        <div class="figure-grid">
+          <figure>
+            <img src="/images/robotic_gym_learning3.png" alt="Preference-augmented learning">
+            <figcaption>Preference-augmented learning pipeline</figcaption>
+          </figure>
+        </div>
+      </li>
+    </ul>
+
+    <h2>Publications:</h2>
+    <ul class="references-list">
+      <li>[7] Bharadwaj, V.R., Miller, B.A., Novak, V.D. and Jiang, C. (2025). Preference Augmented Q-Learning for Patient Exercise Scheduling in a Robotic Rehabilitation Gym, in 2025 IEEE International Conference on Rehabilitation Robotics (ICORR), pp. 603-608.</li>
+      <li>[6] Bharadwaj, V.R., Miller, B.A., Novak, V.D. and Jiang, C. (2024). Learning Skill Training Schedules from Domain Experts in a Rehabilitation Gym Using Inverse Reinforcement Learning. In 2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob), pp. 1815-1821.</li>
+      <li>[5] Adhikari, B., Bharadwaj, V. R., Miller, B. A., Novak, V. D., & Jiang, C. (2023). Learning Skill Training Schedules From Domain Experts for a Multi-Patient Multi-Robot Rehabilitation Gym. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, pp. 4256-4265.</li>
+      <li>[4] Adhikari, B., Ranashing, S., Miller, B. A., Novak, V. D., & Jiang, C. (2022). Learning Dynamic Patient-Robot Task Assignment and Scheduling for A Robotic Rehabilitation Gym. In 2022 IEEE International Conference on Rehabilitation Robotics (ICORR), pp. 1-6.</li>
+      <li>[3] Miller, B. A., Bharadwaj, V. R., Jiang, C. and Novak, V. D. (2025). Dynamic Patient-Robot Assignment in a Simulated Stochastic Robotic Rehabilitation Gym, IEEE Transactions on Medical Robotics and Bionics (T-MRB), 2025.</li>
+      <li>[2] Miller, B. A., Adhikari, B., Jiang, C., & Novak, V. D. (2023). Automated patient-robot task assignment in a simulated stochastic rehabilitation gym. In 2023 IEEE International Conference on Rehabilitation Robotics (ICORR), pp. 1-6.</li>
+      <li>[1] Miller, B. A., Adhikari, B., Jiang, C., & Novak, V. D. (2022). Automated patient-robot assignment for a robotic rehabilitation gym: a simplified simulation model. Journal of NeuroEngineering and Rehabilitation, 19(1), 126.</li>
+    </ul>
+    
+  </div>
+</body>
+</html>
