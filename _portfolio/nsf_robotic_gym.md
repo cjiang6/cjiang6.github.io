@@ -6,11 +6,14 @@ collection: portfolio
 
 <b>1. Multi-Patient Multi-Robot Task Assignment - Optimization-Based Approaches</b><br/>
 <img src='/images/robotic_gym_optimization.png'><br/>
-   1) A deterministic scenario with Mixed Integer Nonlinear Programming (MINP) [1]<br/>
+   1) Addressing deterministic optimization with Mixed Integer Nonlinear Programming (MINP) [1]<br/>
    <br/>
    <img src='/images/robotic_gym_deterministic.bmp'><br/>
    2) Addressing uncertainties and stochasticities in patient skill acquisition with neural network-based skill prediction [2,3]<br/>
    <img src='/images/robotic_gym_stochastic.png'><br/>
+   <img src='/images/robotic_gym_stochastic2.bmp'><br/>
    
-3. Multi-Patient Multi-Robot Task Assignment - Learning-Based Approaches
-<img src='/images/robotic_gym_learning.png'>
+<b>2. Multi-Patient Multi-Robot Task Assignment - Learning-Based Approaches</b><br/>
+<img src='/images/robotic_gym_learning.png'><br/>
+   1) Learning computational neural network models that imitate experts' patient-robot assignment strategies [4,5,6,7]
+   <img src='/images/robotic_gym_learning2.png'><br/>
