@@ -3,7 +3,7 @@ title: "EE4800 Autonomous Cyber-Physical Systems"
 collection: teaching
 type: "Undergraduate course"
 venue: "University of Wyoming, Department of Electrical Engineering and Computer Science"
-#date: 
+date: 2024-09-01 
 ---
 Spring 2020-2021, 2023, Fall 2024
 
